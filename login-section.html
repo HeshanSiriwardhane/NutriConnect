@@ -1,0 +1,131 @@
+<html>
+<style>
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  .login-container {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.80), rgba(0,0,0,0.80)), url("pic2.jpg");
+    image-rendering: optimizeQuality;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:90% 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 245px 50px;
+    font: 400 16px "Noto Color Emoji", -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+
+  .login-form {
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    width: 474px;
+    padding: 39px 72px 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .login-title {
+    color: #000;
+    text-align: center;
+    font: 600 20px/1.4 Roboto, sans-serif;
+    align-self: flex-start;
+  }
+
+  .login-subtitle {
+    color: #4b5563;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 19px;
+  }
+
+  .login-logo {
+    width: 60px;
+    margin-top: 23px;
+  }
+
+  .input-field {
+    border-radius: 6px;
+    background-color: #fff;
+    width: 256px;
+    max-width: 100%;
+    padding: 9px 17px;
+    border: 1px solid #e5e7eb;
+    color: #b2b2b2;
+    margin-top: 32px;
+  }
+
+  .login-button {
+    border-radius: 6px;
+    background-color: #F47920;
+    width: 256px;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0;
+    margin-top: 42px;
+    cursor: pointer;
+  }
+
+  .forgot-password {
+    color: #000;
+    margin-top: 29px;
+    
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+ 
+</style>
+
+<section class="login-container">
+  <form class="login-form">
+    <h1 class="login-title">Food Forward, Access Your Account</h1>
+    <p class="login-subtitle">Your contribution matters.</p>
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/2e1bbe8ddb89e25507af43eb76c90dd70bdbb3235babb4f0fb2926f6525ebdea?placeholderIfAbsent=true&apiKey=cd27c29e2a6240788feabe97bf4dd976"
+      class="login-logo"
+      alt="Food Forward logo"
+    />
+
+    <label for="email" class="visually-hidden">E-mail</label>
+    <input
+      type="email"
+      id="email"
+      class="input-field"
+      placeholder="E-mail"
+      required
+    />
+
+    <label for="password" class="visually-hidden">Password</label>
+    <input
+      type="password"
+      id="password"
+      class="input-field"
+      placeholder="Password"
+      required
+    />
+
+    <button type="submit" class="login-button">Login</button>
+
+    <a href="#" class="forgot-password">Forgot Password ? Click here.</a>
+  </form>
+</section>
+</html>
