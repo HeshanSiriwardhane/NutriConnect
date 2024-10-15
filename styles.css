@@ -11,7 +11,7 @@
 /* styles for landing page */
 .container1 {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.90)), url("pic3.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.90)), url("/images/pic3.jpg");
     image-rendering: optimizeQuality;
     background-repeat: no-repeat;
     background-size: cover;
@@ -117,7 +117,7 @@
 /* styles for landing page */
 .container2 {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.60)), url("pic1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.60)), url("/images/pic1.jpg");
     image-rendering: optimizeQuality;
     background-repeat: no-repeat;
     background-size: cover;
